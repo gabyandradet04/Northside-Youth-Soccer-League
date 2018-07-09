@@ -1,0 +1,213 @@
+/*======================Styles=======*/
+
+/*=============Header=================*/
+html, body{
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+header{
+  background-image: url(../Imagenes/img_soccer.jpg);
+  background-size: 100% 100%;
+  background-position: bottom;
+  height: 400px;
+  width: 100%;
+}
+.titulo{
+  width: 27%;
+  height: 200px;
+  float: left;
+  
+  margin-top: 50px;
+  margin-left: 20px;
+  
+}
+.titulo h1{
+  font: oblique bold 120% cursive;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  color:#033949;
+}
+/************SUBTITULO*************/
+.subtitulo{
+  width: 30%;
+  height: 60px;
+  font: oblique bold 120% cursive;
+  font-size: 30px;
+  background-color:#033949 ;
+  color: #A4FF4A;
+  float: right;
+  margin-top: -80px;
+  padding-top: 20px;
+  text-align: center;
+  margin-bottom: 0px;
+  
+}
+/***************NAV**************/
+.izquierda{
+  background-color: #A4FF4A;
+  width: 100%;
+  height: 55px;
+  float:none;
+  position: absolute;
+  top: 400px;
+}
+
+ul.menu{
+  margin-top: 0px;
+}
+.menu li {
+  float: left;
+  margin-top: 0px;
+  list-style-type: none;
+  margin-right: 15px;
+ 
+}
+.menu li a{
+    font: oblique bold 120% cursive;
+     display: block;
+     color:#033949;
+     text-align: center;
+     padding-top: 0px;
+     padding: 14px 16px;
+    text-decoration: none;    
+}
+.menu li a:hover {
+  background-color: white;
+  color:#A4FF4A; 
+}
+.menu li a.current{
+  background-color: #033949;
+  color:#A4FF4A;
+}
+/***************CONTAIN****************/
+.contain{
+  width: 100%;
+  height: 100%;
+}
+/********************LOGO********************/
+.eventos {
+  width: 20%;
+  float: left;
+  padding-top: 100px;
+  background-image: url(../Imagenes/fondo8_2.jpg);
+  background-size:cover;
+  height:auto;
+  min-height: 100%;
+  max-height: 3000px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  margin-top: 20px; 
+}
+/******************SECTION*************/
+.derecha{
+  background-image: url(../Imagenes/fondo11%20al%2050.jpg);
+  background-size: cover;
+  float: left;
+  width: 80%;
+  padding-top: 100px; 
+  height:auto; 
+  min-height: 100%;
+  
+  }
+/****************HOME**************/
+.fecha{  
+  font: oblique bold 120% cursive;
+  color: black;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.actividad{
+  font: oblique 100% cursive;
+  margin-bottom: 10px;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+/************Contact**************/
+.contacto{
+  font: oblique 120% cursive;
+  margin: 20px;
+  height: inherit;
+  margin-left: 50px;
+}
+/******************LISTA*************/
+.lista{
+  padding-left: 20px;
+}
+.h2_lista{
+  font: oblique bold 120% cursive;
+  font-size: 25px;
+  text-align: center;
+}
+.h3_lista{
+   font: oblique  120% cursive;
+  font-size: 18px;
+  text-align: center;
+}
+.titulo_lista{
+  font: oblique 120% cursive;
+  font-size: 15px;
+  list-style: none
+}
+span{
+  font-weight: bold;
+}
+.cuadrado{
+  list-style-type: square;
+}
+.circulo{
+  list-style-type: circle;
+}
+/***************Contenido Tabla***********/
+.contenido_tabla{
+  padding-left: 60px;
+  font: oblique  120% cursive;/************/
+  height: 100%;
+}
+.h1_tabla{
+  font: oblique bold 120% cursive;
+  font-size: 30px;
+  text-align: center;
+}
+.h2_tabla{
+   font: oblique bold 100% cursive;
+  font-size: 20px;
+  text-align: left;
+}
+.h3_tabla{
+  font: oblique 100% cursive;
+  font-size: 20px;
+  text-align: left;
+}
+.centro{
+  text-align: center;
+}
+table{
+  font: oblique 100% cursive;
+  font: 20px;
+   width: 80%;
+  margin-bottom: 50px;
+  margin-left: 20px;
+}
+.columna{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.game_izq{
+  text-align: left;
+}
+.preguntas{
+  float: left ;
+  
+}
+.preguntas2{
+  float: right;
+  margin-right: 50px;
+}
